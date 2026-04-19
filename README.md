@@ -5,7 +5,7 @@ password generator
 A sleek, high-security random password generator built with HTML, CSS, and Vanilla JavaScript. This tool generates two unique, complex passwords simultaneously to help users secure their digital lives.
 
 🚀 Live Demo
-[Insert Link to GitHub Pages / Vercel / Netlify here]
+[https://rosslergkboquiren.github.io/Random-Password-Generator/]
 
 ✨ Features
 One-Click Generation: Instantly creates two unique passwords.
