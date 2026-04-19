@@ -1,0 +1,85 @@
+/* Modern Reset & Base Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1F2937;
+    color: #FFFFFF;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 450px;
+    padding: 20px;
+}
+
+/* Typography */
+h1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+h1 span {
+    color: #10B981; /* Modern Emerald Green */
+}
+
+.subtitle {
+    color: #D1D5DB;
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+}
+
+/* Button Styling */
+button {
+    background-color: #10B981;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+    margin-bottom: 35px;
+}
+
+button:hover {
+    background-color: #059669;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #374151;
+    margin-bottom: 35px;
+}
+
+/* Password Display Area */
+.password-wrapper {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.password-field {
+    background-color: #273549;
+    color: #55F991;
+    height: 45px;
+    flex: 1;
+    min-width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    font-family: 'Courier New', monospace; /* Monospace for passwords */
+    font-size: 0.9rem;
+    padding: 0 10px;
+}
